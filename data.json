@@ -2,57 +2,60 @@
   "artist": {
     "name": "Pekooooooooo",
     "avatar": "/images/ppp.jpg",
-    "shortBio": "Generative Artist",
+    "shortBio": "Visual Artist",
     "socials": [
-      { "icon": "FaHome", "url": "https://mike.gold" },
-      { "icon": "FaTwitter", "url": "https://twitter.com/michaelgold" },
-      { "icon": "FaGithub", "url": "https://github.com/michaelgold" },
-      { "icon": "FaLinkedin", "url": "https://linkedin.com/in/gold1" },
-      { "icon": "FaUniversity", "url": "https://sva.edu/faculty/michael-gold" }
+      { "icon": "FaHome", "url": "https://tell.ie/xpekox/" },
+      { "icon": "FaTwitter", "url": "https://vimeo.com/user22230747" },
+      { "icon": "FaGithub", "url": "https://github.com/pekoHello" },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/peko-lin-55982a20b/"
+      },
+      { "icon": "FaUniversity", "url": "https://www.xpekox.world" }
     ]
   },
   "project": {
-    "name": "AR Gallery Example"
+    "name": "Snake & Plants"
   },
   "models": [
     {
-      "name": "Gold Cube",
-      "glbFile": "/assets/gold-cube.glb",
+      "name": "Flowery Snake Anatomy1",
+      "glbFile": "/assets/FlowerySnakeAnatomy_LowRes.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "gold" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Name", "value": "flowery snake" },
+        { "trait_type": "Traits", "value": "snake & flower petals" },
+        { "trait_type": "Feeding Habit", "value": "Bees" },
+        { "trait_type": "Natural Enemy", "value": "Beaver" }
       ]
     },
     {
-      "name": "Silver Cube",
-      "glbFile": "/assets/silver-cube.glb",
+      "name": "Snake Plants",
+      "glbFile": "/assets/SnakePlant_LowRes.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "silver" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Name", "value": "baby snake plants" },
+        { "trait_type": "Traits", "value": "snake head flower" },
+        { "trait_type": "Feeding Habit", "value": "small insects" },
+        { "trait_type": "Natural Enemy", "value": "Human" }
       ]
     },
     {
-      "name": "Red Cube",
-      "glbFile": "/assets/red-cube.glb",
+      "name": "Snake Plants",
+      "glbFile": "/assets/SnakePlantMatured.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "red" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Name", "value": "matured snake plants" },
+        { "trait_type": "Traits", "value": "head shapes gone" },
+        { "trait_type": "Feeding Habit", "value": "Humans" },
+        { "trait_type": "Natural Enemy", "value": "None" }
       ]
     },
     {
-      "name": "Green Cube",
-      "glbFile": "/assets/green-cube.glb",
+      "name": "Scale Plants",
+      "glbFile": "/assets/ScalePlant.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "green" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Name", "value": "scale plants" },
+        { "trait_type": "Traits", "value": "unknown" },
+        { "trait_type": "Feeding Habit", "value": "moon light" },
+        { "trait_type": "Natural Enemy", "value": "unknown" }
       ]
     }
   ]
